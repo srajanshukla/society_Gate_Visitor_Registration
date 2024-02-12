@@ -13,7 +13,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 
 @RestController
-@RequestMapping("/visitors")
+@RequestMapping("/api/visitors")
 public class ExcelDownload {
 
     @Autowired
